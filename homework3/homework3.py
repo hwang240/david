@@ -80,4 +80,4 @@ def sum_digits(number):
 number = 12345
 final_result = sum_digits(number) # finding the summation of all the digits in 12345
 
-print(f" the result of Calculating the Sum (6.3) with number = {number} is {final_result}").
+print(f" the result of Calculating the Sum (6.3) with number = {number} is {final_result}")
