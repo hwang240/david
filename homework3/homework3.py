@@ -1,4 +1,4 @@
-# File: homework2.py
+# File: homework3.py
 
 def say_goodbye(name):
   print("Goodbye, " , name)
@@ -20,9 +20,9 @@ def min_max_temp(readings):  #given a list of temperature for readings
 
 def is_weekend(day):
   if day == 6 or day == 7:  #if the days are saturday or sunday, then it is weekend, else false
-    return true
+    return True
   else:
-    return false
+    return False
 
 def fuel_efficiency(miles, gallons): # this function takes in the total distance in miles and fuels used in gallons
   return (miles / gallons)
@@ -80,4 +80,4 @@ def sum_digits(number):
 number = 12345
 final_result = sum_digits(number) # finding the summation of all the digits in 12345
 
-print(f" the result of Calculating the Sum (6.3) with number = {number} is {final_result}")
+print(f" the result of Calculating the Sum (6.3) with number = {number} is {final_result}").
