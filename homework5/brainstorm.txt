@@ -1,0 +1,24 @@
+1. dark matter halos, exoplanets, satellite tracking, cosmic rays, near-earth asteroids
+
+2. dark matter halos: https://astronomy.swin.edu.au/cosmos/d/dark+halo , it says that:
+A dark halo is a huge, invisible cloud of dark matter that surrounds galaxies and galaxy clusters, extending far beyond the visible stars and gas.
+ 
+exoplanets: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS&constraint=default_flag=1&constraint=disc_facility+like+%27%25TESS%25%27 
+the exoplanets dataset from NASA tells about all the recorded exoplanets, and their detailed radius, mass etc.
+
+cosmic rays: https://news.uchicago.edu/explainer/what-are-cosmic-rays 
+cosmic rays are particles coming form outer universe, and it tells us about the space and the universe.
+
+3. Goal: show why galaxies need a dark halo by comparing rotation curves (orbital speed vs. radius) with/without dark matter,
+and fit a simple halo model to real data.
+Loops: sweep over radii to compute circular velocity v(r)
+Functions: create some functions to calculate thin-mask approximations, to create some simple halo models.
+List/Dictionaries : to store dataset inside and use it when necessary
+
+4. I’ll take a single rotation-curve dataset (or generate a Milky-Way-like synthetic set) and compare two models: (1) a luminous-only curve from an exponential disk
+and (2) a disk + isothermal halo plot data vs. both curves, and show that the luminous-only model falls while the halo model stays 
+flat like the observations—visually demonstrating “why galaxies need a dark halo.” 
+
+I’ll scale up to a mini sample (3–10 galaxies). For each, I’ll load a rotation-curve file with errors, compute the luminous contribution from disk (and bulge if available), 
+and compare two halo profiles—isothermal vs. NFW—fitting parameters and reporting goodness-of-fit I’ll propagate measurement errors to show confidence bands, 
+explore the disk mass-to-light ratio as a nuisance parameter, and summarize trends across the sample
